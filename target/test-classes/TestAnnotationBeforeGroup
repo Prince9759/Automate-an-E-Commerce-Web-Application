@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="Suite">
+  <test name="Test">
+    <classes>
+      <class name="BasicAnnotation.TestAnnotationBeforeGroup"/>
+      <groups>
+      <run>
+        <include name="testOne"/>
+         <include name="testTwo"/>
+      </run>
+</groups>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
